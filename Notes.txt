@@ -1,0 +1,46 @@
+1. First creating github repository
+
+Gitignore - The files present in this folder is not tracked by git eg. Virtenv/venv
+License - GNU, Apache Licence
+
+2. Clone the Repository in Local System.
+
+[git clone repolink] in cmd
+
+3. Git Commands
+
+git clone <repo link>
+git add .
+git add filename
+git commit -m "comments"
+git push origin main
+git status
+
+git remote -v #To check remote url or github url where it is pushing
+
+git log #To check the git logs and version history
+
+
+4. Create conda enviornment - virtenv
+
+conda create -p virtenv python==3.7 -y
+
+5. Check for the system enviornment variable
+
+Anaconda Prompt>open file location > Anaconda navigator>open file location>copy the path and add it on enviornment variable
+
+Anaconda3
+library/mingw-w64.bin
+library/usr/bin
+library/bin
+Anaconda3/scripts
+
+6. Then activate the virtual enviornment - virtenv
+
+conda activate virtenv/
+
+7. Create - requirements.txt, app.py
+
+pip install -r requirements.txt
+
+8. setup.py - use the file as a package and use it
