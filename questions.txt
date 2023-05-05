@@ -1,0 +1,4 @@
+1. What is dataclass and @dataclass used before class?
+2. What is the meaning of this line -
+    if __name__ == "__main__":
+3. Do the EDA on Jupyter notebook by yourself.
